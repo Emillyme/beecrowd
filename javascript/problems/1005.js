@@ -3,6 +3,6 @@ export function problem (lines){
     const b = Number(lines[1]);
     const media = (a * 3.5 + b * 7.5)/11;
 
-    console.log('MEDIA = ' + media);
+    console.log('MEDIA = ' + media.toFixed(5));
     
 }
